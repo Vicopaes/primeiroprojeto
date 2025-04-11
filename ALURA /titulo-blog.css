@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    color: bisque;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    align-items: center; /* Alinha os itens ao topo */
+    justify-content: center;
+    
+    margin: 10%;
+    gap: 32px;
+}
+.container-bloco {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.container-titulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+
+
+}
+.container-texto {
+    font-family: "Krona One", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.container-destaque {
+    font-family: "Krona One", sans-serif;
+    font-size: 22px;
+    color: blueviolet;
+}
+.container-link {
+    display: flex;
+    justify-content: space-between;
+}
+.botao-links {
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 180px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.botao-links:hover {
+    background-color: rgb(22, 222, 99);
+    color: aliceblue;
+    width: 180px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+.fotointro {
+    box-sizing: content-box;
+}
+img {
+    border-radius: 100%;
+
+}
