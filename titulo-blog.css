@@ -20,7 +20,6 @@ body {
     display: flex;
     align-items: center; /* Alinha os itens ao topo */
     justify-content: center;
-    
     margin: 10%;
     gap: 32px;
 }
@@ -35,21 +34,28 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
 
-
 }
 .container-texto {
-    font-family: "Krona One", sans-serif;
-    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
     line-height: 1.5;
+    font-weight: 600;
 }
 .container-destaque {
     font-family: "Krona One", sans-serif;
     font-size: 22px;
     color: blueviolet;
 }
+.container-subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
 .container-link {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px
 }
 .botao-links {
     background-color: blueviolet;
