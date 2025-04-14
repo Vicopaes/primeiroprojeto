@@ -93,7 +93,7 @@ img {
 @media (max-width: 768px) {
     .container {
       flex-direction: column;
-      margin: 5%;
+      margin: 10%;
       gap: 24px;
     }
   
@@ -104,12 +104,14 @@ img {
     }
   
     img {
-      width: 80%;
       max-width: 300px;
+      height: auto;
     }
+
   
     .botao-links {
       width: 100%;
-    }
+      max-width: fit-content;
+
   }
   
