@@ -9,7 +9,6 @@
 body {
     display: flex;
     height: 100vh;
-    width: 100%;
     color: bisque;
     background-color: black;
     align-items: center;
@@ -20,8 +19,8 @@ body {
     display: flex;
     align-items: flex-start;/* Alinha os itens ao topo */
     justify-content: center;
-    margin: 10%;
-    gap: 32px;
+    padding: 10%;
+    gap: 48px;
 }
 .container-bloco {
     width: 532px;
@@ -77,7 +76,7 @@ body {
 }
 .botao-links:hover {
         border: 3px solid rgb(22, 222, 99);
-        width: 300px;
+        width: 370px;
         font-size: 16px;
         border-radius: 12px;
         padding: 10px;
@@ -87,5 +86,30 @@ body {
 }
 img {
     border-radius: 100%;
-
 }
+
+/* Responsivo Mobile */
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      margin: 5%;
+      gap: 24px;
+    }
+  
+    .container-bloco {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  
+    img {
+      width: 80%;
+      max-width: 300px;
+    }
+  
+    .botao-links {
+      width: 100%;
+    }
+  }
+  
