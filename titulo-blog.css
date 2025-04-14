@@ -90,19 +90,25 @@ img {
 
 /* Responsivo Mobile */
 @media (max-width: 768px) {
-    .container {
-      flex-direction: column; /* empilha a imagem acima */
-      margin: 10%;
-    }
-    .container-bloco {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-      }
-    img {
-      order: -1; /* joga a imagem para cima do bloco de texto */
-      width: 100%;
-      max-width: 280px;
-      height: auto;
-    }
+  .container {
+    flex-direction: column;
+    margin: 20%;
+    gap: 24px;
+  }
+
+  .container-bloco {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .botao-links {
+    width: 100%;
+  }
 }
+
