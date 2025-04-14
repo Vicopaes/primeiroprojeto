@@ -92,7 +92,7 @@ img {
 @media (max-width: 768px) {
     .container {
       flex-direction: column; /* empilha a imagem acima */
-      padding: 24px;
+      margin: 10%;
     }
     .container-bloco {
         width: 100%;
