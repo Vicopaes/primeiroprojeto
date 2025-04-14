@@ -89,29 +89,19 @@ img {
 }
 
 /* Responsivo Mobile */
-
 @media (max-width: 768px) {
     .container {
-      flex-direction: column;
-      margin: 10%;
-      gap: 24px;
+      flex-direction: column; /* empilha a imagem acima */
+      padding: 24px;
     }
-  
     .container-bloco {
-      width: 100%;
-      text-align: center;
-      align-items: center;
-    }
-  
+        width: 100%;
+        text-align: center;
+        align-items: center;
+      }
     img {
-      max-width: 300px;
+      order: -1; /* joga a imagem para cima do bloco de texto */
+      width: 100%;
+      max-width: 280px;
       height: auto;
     }
-
-  
-    .botao-links {
-      width: 100%;
-      max-width: fit-content;
-
-  }
-  
