@@ -91,35 +91,41 @@ img {
 /* Responsivo Mobile */
 @media (max-width: 768px) {
     body {
-      overflow-x: hidden;
       margin: 0;
       padding: 0;
+      overflow-x: hidden;
     }
   
     .container {
-      flex-direction: column;
+      display: flex;
+      flex-direction: column; /* empilha os blocos */
       align-items: center;
-      margin: 0; /* tiramos os 20% que causavam o scroll */
-      padding: 20px;
+      justify-content: center;
+      padding: 32px; /* recuo geral interno */
+      box-sizing: border-box;
     }
   
     .container-bloco {
       width: 100%;
+      max-width: 400px; /* limita a largura máxima */
+      padding: 20px;
+      box-sizing: border-box;
       text-align: center;
-      padding: 0 20px; /* recuo lateral suave */
+    }
+  
+    .container-bloco img {
+      width: 120px;
+      margin: 0 auto 20px auto;
+      display: block;
     }
   
     .container-link {
       width: 100%;
+      max-width: 400px;
       display: flex;
       flex-direction: column;
       gap: 12px;
       align-items: center;
-    }
-  
-    img {
-      width: 80%;
-      max-width: 300px;
       margin-top: 20px;
     }
   
