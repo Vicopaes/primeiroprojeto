@@ -90,16 +90,25 @@ img {
 
 /* Responsivo Mobile */
 @media (max-width: 768px) {
+    body {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+
+    }
+}
   .container {
     flex-direction: column;
+    align-items: center;
     margin: 20%;
-    gap: 24px;
+    padding: 20px;
   }
 
   .container-bloco {
     width: 100%;
     text-align: center;
     align-items: center;
+    padding: 0 10px;
   }
 
   img {
@@ -109,6 +118,10 @@ img {
 
   .botao-links {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
   }
-}
+
 
