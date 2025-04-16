@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotsite</title>
-    <link rel="stylesheet" href="titulo-blog.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-link" href="./index.html">Home</a>
+            <a class="cabecalho-menu-link" href="./about.html">Sobre Mim</a>
+            <a class="cabecalho-menu-link" href="./portfolio.html">Portfolio</a>
+        </nav>
+    </header>
         <main class="container">  <!-- Container flexível -->
             <section class="container-bloco">
                 <h1 class="container-titulo">Projeto One!</h1>
@@ -17,11 +23,18 @@
                 </p> 
                 <div class="container-link">
                     <h2 class="container-subtitulo">Acesse Minhas Redes:</h2>
-                    <a class="botao-links" href="https://instagram.com/vicopaes">Instagram</a>
-                    <a class="botao-links" href="https://www.linkedin.com/in/paesvictor">Linkedin</a>
+                    <a class="botao-links" href="https://instagram.com/vicopaes">
+                        <img src="./assets/instagram.png" alt="Instagram"> Instagram
+                    </a>
+                    <a class="botao-links" href="https://www.linkedin.com/in/paesvictor">
+                        <img src="./assets/linkedin.png" alt="Linkedin"> Linkedin
+                    </a>
                 </div>
             </section>
-            <img src="aluralogo.jpeg" alt="logo">
+            <img src="./assets/aluralogo.jpeg" alt="logo">
         </main>   
+        <footer class="rodape">
+            <p> Desenvolvido por @Vicopaes </p>
+        </footer>
 </body>
 </html>

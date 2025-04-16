@@ -4,23 +4,34 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+.cabecalho {
+    padding: 2% 0 0 20%;
+}
+.cabecalho-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px; 
+}
+.cabecalho-menu-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #22D4FD;
+    text-decoration: none;
 }
 body {
-    display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     color: bisque;
     background-color: black;
-    align-items: center;
-    justify-content: center;
-    
+    box-sizing: border-box;
 }
 .container {
     display: flex;
     align-items: flex-start;/* Alinha os itens ao topo */
-    justify-content: center;
-    padding: 10%;
-    gap: 48px;
+    justify-content: space-between;
+    padding: 8% 20%;
 }
 .container-bloco {
     width: 532px;
@@ -57,29 +68,33 @@ body {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
 }
 .botao-links {
-    border: 3px solid blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid blueviolet;
     background-color: transparent;
     color: aliceblue;
-    width: 378px;
+    width: 332px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 18px;
     border-radius: 8px;
-    padding: 16px;
+    padding: 14px 0;
     text-decoration: none;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.4s;
 }
 .botao-links:hover {
-        border: 3px solid rgb(22, 222, 99);
-        width: 370px;
-        font-size: 16px;
-        border-radius: 12px;
-        padding: 10px;
+        border: 2px solid rgb(22, 222, 99);
+        width: 352px;
+        font-size: 20px;
+
+
 }
 .fotointro {
     box-sizing: content-box;
@@ -87,53 +102,15 @@ body {
 img {
     border-radius: 100%;
 }
+.rodape {
+    color: black;
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400 ;
+    font-size: 18px;
+
+}
 
 /* Responsivo Mobile */
-@media (max-width: 768px) {
-    body {
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-    }
-  
-    .container {
-      display: flex;
-      flex-direction: column; /* empilha os blocos */
-      align-items: center;
-      justify-content: center;
-      padding: 32px; /* recuo geral interno */
-      box-sizing: border-box;
-    }
-  
-    .container-bloco {
-      width: 100%;
-      max-width: 400px; /* limita a largura máxima */
-      padding: 20px;
-      box-sizing: border-box;
-      text-align: center;
-    }
-  
-    .container-bloco img {
-      width: 120px;
-      margin: 0 auto 20px auto;
-      display: block;
-    }
-  
-    .container-link {
-      width: 100%;
-      max-width: 400px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      align-items: center;
-      margin-top: 20px;
-    }
-  
-    .botao-links {
-      width: 100%;
-      max-width: 300px;
-      padding: 12px;
-      text-align: center;
-    }
-  }
-  
