@@ -141,6 +141,10 @@ img {
     .container-texto{
         text-align: center;
     }
-    
+    .foto-apresentacao{
+        height: auto;
 
+    }
+    .img {
+        height: auto;
 }
