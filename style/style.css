@@ -140,6 +140,10 @@ img {
     .container-texto{
         text-align: center;
     }
-    
+    .foto-apresentacao{
+        width: 100%;
+        height: auto;
+        max-width: 280px;
+    }
 
 }
