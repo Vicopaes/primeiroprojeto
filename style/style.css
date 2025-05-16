@@ -99,7 +99,7 @@ body {
 .foto-apresentacao{
         width: 50%;
         height: auto;
-        max-width: 250px;
+        max-width: 200px;
 }
 
 .fotointro {
@@ -141,9 +141,7 @@ img {
         text-align: center;
     }
     .foto-apresentacao{
-        width: 100%;
-        height: auto;
-        max-width: 200px;
+        max-width: 120px;
     }
 
 }
