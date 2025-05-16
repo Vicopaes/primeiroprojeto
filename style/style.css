@@ -6,7 +6,7 @@
     padding: 0;
 }
 .cabecalho {
-    padding: 10% 0 0 15%;
+    padding: 6% 0 0 18%;
 }
 .cabecalho-menu {
     display: flex;
@@ -21,10 +21,6 @@
     color: #22D4FD;
     text-decoration: none;
 }
-.cabecalho-menu-link:hover {
-    color: rgb(22, 222, 99);
-    
-}
 body {
     /* height: 100vh; */
     color: bisque;
@@ -35,46 +31,46 @@ body {
     display: flex;
     align-items: flex-start;/* Alinha os itens ao topo */
     justify-content: space-between;
-    padding: 5% 15%;
+    padding: 6% 18%;
     gap: 82px;
 }
 .container-bloco {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: px;
+    gap: 40px;
 
 }
 .container-titulo {
     font-family: "Krona One", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .container-texto {
     max-width: 452px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     margin-bottom: 28px;
 }
 .container-destaque {
     font-family: "Krona One", sans-serif;
     font: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: blueviolet;
 }
 .container-subtitulo {
     font-family: "Krona One", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 .container-link {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    align-items:center;
-    gap: 32px;
+    align-items: center;
+    gap: 18px;
 }
 .botao-links {
     display: flex;
@@ -84,25 +80,23 @@ body {
     border: 2px solid blueviolet;
     background-color: transparent;
     color: aliceblue;
-    width: 332px;
+    width: 45px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 1.25rem;
-    border-radius: 8px;
-    padding: 14px 0;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    padding: 8px 86px;
     text-decoration: none;
     cursor: pointer;
     transition: 0.4s;
 }
 .botao-links:hover {
         border: 2px solid rgb(22, 222, 99);
-        
     
 }
 .foto-apresentacao{
         width: 50%;
-        height: auto;
         max-width: 200px;
 }
 
@@ -111,7 +105,8 @@ body {
 }
 img {
     border-radius: 100%;
-    max-width: 200;
+    width: 50%;
+    max-width: 200px;
 }
 .rodape {
     color: black;
@@ -133,6 +128,7 @@ img {
         justify-content: center;
     }
     .container{
+        align-items: center;/* Alinha os itens ao topo */
         flex-direction: column-reverse;
         padding: 5%;
     }
@@ -145,8 +141,6 @@ img {
     .container-texto{
         text-align: center;
     }
-    .foto-apresentacao{
-        max-width: 120px;
-    }
+    
 
 }
