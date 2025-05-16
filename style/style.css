@@ -21,6 +21,10 @@
     color: #22D4FD;
     text-decoration: none;
 }
+.cabecalho-menu-link:hover {
+    color: rgb(22, 222, 99);
+    
+}
 body {
     /* height: 100vh; */
     color: bisque;
